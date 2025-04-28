@@ -143,6 +143,7 @@ namespace CardGames.GameLogic
 
 			// stop the game...
 			_started = false;
+   			gameTimer.Stop ();
 		}
 	
 		#region Snap Game Unit Tests
